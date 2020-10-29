@@ -28,7 +28,7 @@ function solve() {
 
       input.rateElement.innerText = `1 ${input.firstCurrency.value} = ${rate} ${input.secondCurrency.value}`;
 
-      input.secondAmount.value = (input.firstAmount.value * rate).toFixed(2);
+      input.secondAmount.value = (input.firstAmount.value * rate).toFixed(4);
     });
 }
 
